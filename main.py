@@ -32,4 +32,4 @@ def output():
     print(f"Кількість слів: {result['words']}")
     print(f"Кількість речень: {result['sentences']}")
 output()
-# unit-тести
+
