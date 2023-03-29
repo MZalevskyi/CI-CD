@@ -28,3 +28,8 @@ def words_sentences(filename):
 # використання функції
 result = words_sentences("Text.txt")
 
+def output():
+    print(f"Кількість слів: {result['words']}")
+    print(f"Кількість речень: {result['sentences']}")
+output()
+# unit-тести
